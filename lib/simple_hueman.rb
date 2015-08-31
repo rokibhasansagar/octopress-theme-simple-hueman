@@ -6,8 +6,9 @@ Octopress::Ink.add_plugin({
   gem:           "simple_hueman",
   name:          "Simple Hueman",
   path:          File.expand_path(File.join(File.dirname(__FILE__), "..")),
-  slug:          "simple_hueman",
+  slug:          "theme",
   source_url:    "https://github.com/tdg5/simple_hueman",
+  type:          "theme",
   version:       SimpleHueman::VERSION,
   website:       "https://github.com/tdg5/simple_hueman" ,
 })
