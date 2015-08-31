@@ -1,0 +1,19 @@
+exclude:
+  - Gemfile*
+gems:
+  - octopress-simple-hueman-theme
+url: http://localhost:4000
+
+ink_watch: theme
+redcarpet:
+  extensions: [
+    autolink,
+    disable_indented_code_blocks,
+    fenced_code_blocks,
+    footnotes,
+    no_intra_emphasis,
+    space_after_headers,
+    strikethrough,
+    tables,
+    underline
+  ]
