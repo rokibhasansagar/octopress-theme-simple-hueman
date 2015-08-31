@@ -1,4 +1,7 @@
 # SimpleHueman
+[![Build Status](https://travis-ci.org/tdg5/simple_hueman.svg?branch=master)](https://travis-ci.org/tdg5/simple_hueman)
+[![Coverage Status](https://coveralls.io/repos/tdg5/simple_hueman/badge.svg?branch=master&service=github)](https://coveralls.io/github/tdg5/simple_hueman?branch=master)
+[![Code Climate](https://codeclimate.com/github/tdg5/simple_hueman/badges/gpa.svg)](https://codeclimate.com/github/tdg5/simple_hueman)
 
 Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/simple_hueman`. To experiment with that code, run `bin/console` for an interactive prompt.
 
