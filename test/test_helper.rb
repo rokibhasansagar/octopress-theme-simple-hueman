@@ -10,14 +10,16 @@ end
 
 require "minitest/autorun"
 require "mocha/setup"
-require "simple_hueman"
+require "octopress-simple-hueman-theme"
 
 # Use alternate shoulda-style DSL for tests
-class SimpleHueman::TestCase < Minitest::Spec
-  class << self
-    alias :setup :before
-    alias :teardown :after
-    alias :context :describe
-    alias :should :it
+module Octopress
+  class SimpleHueman::TestCase < Minitest::Spec
+    class << self
+      alias :setup :before
+      alias :teardown :after
+      alias :context :describe
+      alias :should :it
+    end
   end
 end

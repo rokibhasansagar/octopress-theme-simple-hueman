@@ -1,9 +1,12 @@
 # SimpleHueman
-[![Build Status](https://travis-ci.org/tdg5/simple_hueman.svg?branch=master)](https://travis-ci.org/tdg5/simple_hueman)
-[![Coverage Status](https://coveralls.io/repos/tdg5/simple_hueman/badge.svg?branch=master&service=github)](https://coveralls.io/github/tdg5/simple_hueman?branch=master)
-[![Code Climate](https://codeclimate.com/github/tdg5/simple_hueman/badges/gpa.svg)](https://codeclimate.com/github/tdg5/simple_hueman)
+[![Build Status](https://travis-ci.org/tdg5/octopress-simple-hueman-theme.svg?branch=master)](https://travis-ci.org/tdg5/octopress-simple-hueman-theme)
+[![Coverage Status](https://coveralls.io/repos/tdg5/octopress-simple-hueman-theme/badge.svg?branch=master&service=github)](https://coveralls.io/github/tdg5/octopress-simple-hueman-theme?branch=master)
+[![Code Climate](https://codeclimate.com/github/tdg5/octopress-simple-hueman-theme/badges/gpa.svg)](https://codeclimate.com/github/tdg5/octopress-simple-hueman-theme)
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/simple_hueman`. To experiment with that code, run `bin/console` for an interactive prompt.
+Welcome to your new gem! In this directory, you'll find the files you need to be
+able to package up your Ruby library into a gem. Put your Ruby code in the file
+`lib/octopress-simple-hueman-theme`. To experiment with that code, run
+`bin/console` for an interactive prompt.
 
 TODO: Delete this and the text above, and describe your gem
 
@@ -12,7 +15,7 @@ TODO: Delete this and the text above, and describe your gem
 Add this line to your application's Gemfile:
 
 ```ruby
-gem "simple_hueman"
+gem "octopress-simple-hueman-theme"
 ```
 
 And then execute:
@@ -21,7 +24,7 @@ And then execute:
 
 Or install it yourself as:
 
-    $ gem install simple_hueman
+    $ gem install octopress-simple-hueman-theme
 
 ## Usage
 
@@ -35,7 +38,7 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 
 ## Contributing
 
-1. Fork it ( https://github.com/[my-github-username]/simple_hueman/fork )
+1. Fork it ( https://github.com/tdg5/octopress-simple-hueman-theme/fork )
 2. Create your feature branch (`git checkout -b my-new-feature`)
 3. Commit your changes (`git commit -am "Add some feature"`)
 4. Push to the branch (`git push origin my-new-feature`)
