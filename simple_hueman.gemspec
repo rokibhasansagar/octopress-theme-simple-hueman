@@ -1,0 +1,28 @@
+# coding: utf-8
+lib = File.expand_path("../lib", __FILE__)
+$LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
+require "simple_hueman/version"
+
+Gem::Specification.new do |spec|
+  spec.name          = "simple_hueman"
+  spec.version       = SimpleHueman::VERSION
+  spec.authors       = ["Danny Guinther"]
+  spec.email         = ["dannyguinther@gmail.com"]
+
+  spec.summary       = %q{Simplified Jekyll port of Hueman theme.}
+  spec.description   = %q{Simplified Jekyll port of Hueman theme.}
+  spec.homepage      = "https://github.com/tdg5/simple_hueman"
+  spec.license       = "MIT"
+
+  spec.files         = `git ls-files -z`.split("\x0").grep(%r{^(bin/|lib/|assets/|changelog|readme|license)}i)
+  spec.bindir        = "exe"
+  spec.executables   = spec.files.grep(%r{^exe/}) { |f| File.basename(f) }
+  spec.require_paths = ["lib"]
+
+  spec.add_development_dependency "bundler", "~> 1.9"
+  spec.add_development_dependency "rake", "~> 10.0"
+  spec.add_development_dependency "clash"
+  spec.add_development_dependency "pry"
+
+  spec.add_runtime_dependency "octopress-ink", "~> 1.2"
+end
