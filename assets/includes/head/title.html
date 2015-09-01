@@ -1,0 +1,15 @@
+{% if page.meta_title %}
+  {% assign page_title = page.meta_title %}
+{% else %}
+  {% assign page_title = page.title %}
+{% endif %}
+
+{% if page_title %}
+  {% assign title = page_title | append: " - " | append: theme.title %}
+{% else %}
+  {% assign title = theme.title %}
+  {% if theme.tagline %}
+    {% assign title = title | append: " - " | append: theme.tagline %}
+  {% endif %}
+{% endif %}
+<title>{{ title }}</title>
