@@ -1,8 +1,0 @@
-order_css:
-  - hueman.css
-  - hueman-responsive.css
-  - bonus.css
-  - pygments.css
-order_js:
-  - jquery.js
-  - simple_hueman.js
