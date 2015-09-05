@@ -1,3 +1,3 @@
 ---
-layout: "theme:default"
+layout: "theme:page"
 ---
