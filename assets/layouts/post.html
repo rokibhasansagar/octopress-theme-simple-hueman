@@ -1,0 +1,27 @@
+---
+layout: theme:3-column
+format: single
+---
+<section class="content page-content">
+  <div class="page-title pad group"><h2></h2></div>
+  <section class="content">
+    <div class="pad group">
+      <article>
+        <div class="post-inner group">
+          <h1 class="post-title">{{ page.title }}</h1>
+          {% include theme:byline.html %}
+          <div class="entry">
+            <div class="entry-inner">
+              {% include theme:featured_image.html %}
+              {{ content }}
+            </div>
+          </div>
+        </div>
+      </article>
+      {% include theme:widgets/tag_list.html %}
+      <h4 class="heading"><i class="fa fa-hand-o-right"></i>You may also like...</h4>
+      {% assign related_posts = site.related_posts | slice: 0, 3 %}
+      {% include theme:widgets/related_posts.html %}
+    </div>
+  </section>
+</section>

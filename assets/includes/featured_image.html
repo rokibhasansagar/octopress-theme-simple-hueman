@@ -1,0 +1,7 @@
+<p class="featured-image">
+  {% if page.featured_image %}
+    <img src="{{ page.featured_image.url }}" alt="{{ page.featured_image.alt_text }}" title="{{ page.featured_image.title }}">
+  {% else %}
+    <img src="" alt="{{ page.title }}" title="{{ page.title }}">
+  {% endif %}
+</p>
