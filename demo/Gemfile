@@ -2,5 +2,5 @@ source "https://rubygems.org"
 
 gem "jekyll", "3.0.0.pre.beta8"
 group :jekyll_plugins do
-  gem "octopress-simple-hueman-theme", :path => "../"
+  gem "octopress-theme-simple-hueman", :path => "../"
 end

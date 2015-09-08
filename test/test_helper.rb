@@ -10,7 +10,7 @@ end
 
 require "minitest/autorun"
 require "mocha/setup"
-require "octopress-simple-hueman-theme"
+require "octopress-theme-simple-hueman"
 
 # Use alternate shoulda-style DSL for tests
 module Octopress

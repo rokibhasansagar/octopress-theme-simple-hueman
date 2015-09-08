@@ -1,7 +1,7 @@
 #!/usr/bin/env ruby
 
 require "bundler/setup"
-require "octopress-simple-hueman-theme"
+require "octopress-theme-simple-hueman"
 
 require "pry"
 Pry.start

@@ -1,7 +1,7 @@
 PATH
   remote: ../
   specs:
-    octopress-simple-hueman-theme (0.1.0)
+    octopress-theme-simple-hueman (0.1.0)
       octopress-ink (~> 1.2)
 
 GEM
@@ -95,4 +95,4 @@ PLATFORMS
 
 DEPENDENCIES
   jekyll (= 3.0.0.pre.beta8)
-  octopress-simple-hueman-theme!
+  octopress-theme-simple-hueman!
