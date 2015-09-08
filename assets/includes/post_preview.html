@@ -1,0 +1,21 @@
+<div class="group post">
+  <div class="post-inner post-hover">
+    <div class="post-thumbnail">
+      <a href="{{ post.url | canonical_url }}">
+        {% if post.featured_image %}
+          <img src="{{ post.featured_image.url | canonical_url }}" alt="{{ post.featured_image.alt_text }}" title="{{ post.featured_image.title }}">
+        {% else %}
+          <img src="" alt="{{ post.title }}" title="{{ post.title }}">
+        {% endif %}
+      </a>
+    </div>
+    <div class="post-meta group">
+      <p class="post-date">{{ post.date | date: "%d %b, %Y" }}</p>
+    </div>
+    <h2 class="post-title"><a href="{{ post.url | canonical_url }}" rel="bookmark" title="{{ post.title }}">{{ post.title }}</a></h2>
+    <div class="entry excerpt">
+      {{ post.content | markdownify | strip_html | truncatewords: 50 }}
+    </div>
+  </div>
+</div>
+

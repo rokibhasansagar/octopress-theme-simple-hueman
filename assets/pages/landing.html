@@ -1,0 +1,13 @@
+---
+layout: theme:page
+header_title: SimpleHueman
+permalink: /
+---
+<div class="pad group">
+  <div class="featured">
+    {% assign post = site.posts.first %}
+    {% include theme:post_preview.html %}
+  </div>
+  {% assign posts = site.posts | slice: 1, 11 %}
+  {% include theme:post_list.html %}
+</div>

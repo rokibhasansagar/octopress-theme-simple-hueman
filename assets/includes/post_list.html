@@ -1,0 +1,20 @@
+<ul class="post-list group">
+  {% for post in posts %}
+    {% if captured %}
+      <li class="post-row">
+        {{ captured }}
+        {% assign captured = nil %}
+        {% include post_preview.html %}
+      </li>
+    {% else %}
+      {% capture captured %}
+        {% include post_preview.html %}
+      {% endcapture %}
+    {% endif %}
+  {% endfor %}
+  {% if captured %}
+    <li class="post-row">
+      {{ captured }}
+    </li>
+  {% endif %}
+</ul>
