@@ -1,6 +1,6 @@
 exclude:
   - Gemfile*
-gems:
+plugins:
   - octopress-theme-simple-hueman
 url: http://localhost:4000
 
