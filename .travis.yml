@@ -4,7 +4,7 @@ dist: xenial
 language: ruby
 rvm:
   - 2.3
-  - 2.5
+  - 2.5.5
 
 addons:
   apt:
@@ -13,6 +13,6 @@ addons:
 before_install:
   - gem install bundler -v 2.0.2
 install:
-  - bundle install --jobs 16 --retry 3 --production
+  - bundle install --jobs 16 --retry 3
 script:
   - bundle exec rake --trace
